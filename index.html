@@ -44,6 +44,14 @@
             text-indent: 100px;
 
         }
+        
+        .projectTitle {
+            text-indent: 75px;
+            font-size: sans-serif;
+            font-weight: 700;
+
+        }
+
         #aboutMe {
             font-family: sans-serif;
             font-size: 14px;
@@ -75,7 +83,18 @@
                 width: auto;
                 text-align: center;
                 font-size: 14px;
+                padding-bottom: 20px;
         }
+        #git {
+            color: black;
+        }
+        #linked {
+            color: black;
+        }
+        #twitter {
+            color: black;
+        }
+
         </style>
     </head>
 
@@ -91,6 +110,11 @@
     <p id = "aboutMe" class = "pClass">My name is Colton Surfus and I'm a software engineering and computer science major. I enjoy creating things through the use of my skills. I enjoy completing projects that require me to learn new things. When I'm not working on projects, I enjoy watching movies, playing video games, watching sports,                      and physical fitness<p>
 </div>
 
+<div id = "resume">
+<h3 id="resume">Resume</h3>
+<p class ="pClass"><a href="Resume.pdf" download>Download Resume</a></p>
+</div>
+
 <div id = "skillsDiv">
     <h3 id = "skills">Skills</h3>
     <p id = "languages" class = "pClass">Languages - Java, C#, C++, Python, PHP, JavaScript, HTML, CSS, SQL</p>
@@ -99,16 +123,40 @@
 
 <div id="projectsDiv">
     <h3 id = "projects">Projects</h3>
-    <p class = "pClass">All Projects </p>
+    
+        <p class="projectTitle">Workout Mobile App<p>
+        <p class ="pClass">Mobile application created using Visual Studio with Xamarin Forms. Incorporates a SQL database to store a user's information </p>
+        <p class ="pClass"><a href='https://github.com/coltonsurfus/proDevProject' target="_blank">View on GitHub</a></p>
+
+        <p class="projectTitle">Text Converter</p>
+        <p class ="pClass">Website that allows a user to encode a sentence into binary, octal, or hex. Comes in different versions (JavaScript, PHP, or jQuery AJAX</p>
+        <p class ="pClass"><a href='https://github.com/coltonsurfus/textConverter' target="_blank">View on GitHub</a></p>
+
+        <p class="projectTitle">Assembly Language Multiplication Table</p>
+        <p class ="pClass">A Multiplication table that goes up to 8 created using Assembly Language</p>
+        <p class ="pClass"><a href='https://github.com/coltonsurfus/textConverter' target="_blank">View on GitHub</a></p>
+
+        <p class="projectTitle">Coltonsurfus.com</p>
+        <p class ="pClass">Personal website that displays my skills, resume, and projects</p>
+        <p class ="pClass"><a href='https://github.com/coltonsurfus/coltonsurfus.github.io' target="_blank">View on GitHub</a></p>
+
+        <p class="projectTitle">Have I Watched That?</p>
+        <p class ="pClass">Website that allows a user to keep track of what movies they've watched. Users create an account to store movies watched to their profile. All data is stored
+            in a SQL database.</p>
+        <p class ="pClass"><a href='https://github.com/coltonsurfus/Have-I-Watched-That' target="_blank">View on GitHub</a></p>
+
+
+    
+
 </div>
     
     </body>
 
 <footer id="footer">
 <p>Colton Surfus</p>
-<a href="https://github.com/coltonsurfus"><i class="fab fa-github" style="font-size:28px;"></i></a>
-<a href="https://www.linkedin.com/in/coltonsurfus/"><i class="fab fa-linkedin" style="font-size:28px;"></i></a>
-<a href="https://www.twitter.com/coltonsurfus/"><i class="fab fa-twitter" style="font-size:28px;"></i></a>
+<a href="https://github.com/coltonsurfus"><i id="git" class="fab fa-github" style="font-size:28px;"></i></a>
+<a href="https://www.linkedin.com/in/coltonsurfus/"><i id="linked" class="fab fa-linkedin" style="font-size:28px;"></i></a>
+<a href="https://www.twitter.com/coltonsurfus/"><i id="twitter"class="fab fa-twitter" style="font-size:28px;"></i></a>
 
 
 </footer>
