@@ -1,169 +1,59 @@
-<html>
-    <head>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">        
-
-        <title>Colton Surfus</title>
-        
-
-        <style type="text/css">
-      body {	
-              background-color: #f5f5f5;  
-            } 
-            
-       h1 {
-            font-family: consolas, sans-serif;
-            font-size: 62px;
-            color: ##232323;
-            margin: 20px;
-            font-weight: 700;
-            text-align: center;
-            }
-        
-        h2 {
-            font-family: consolas, sans-serif;
-            font-size: 18px;
-            color: #525252;
-            font-weight: normal;
-            margin: 20px;
-            text-align: center;
-        }
-        h3 {
-            font-family: consolas, sans-serif;
-            font-size: 16px;
-            color: #222222;
-            font-weight: 700;
-            margin: 20px;
-            text-align: left;
-            text-decoration: underline;
-            text-indent: 50px;
-
-            
-        }
-        p {
-            font-family: sans-serif;
-            font-size: 14px;
-
-        }
-        .pClass {
-            text-indent: 100px;
-
-        }
-        
-        .projectTitle {
-            text-indent: 75px;
-            font-size: sans-serif;
-            font-weight: 700;
-
-        }
-
-        #aboutMe {
-            font-family: sans-serif;
-            font-size: 14px;
-            text-align: center;
-            margin-top: 10px;
-            margin-right:90px;
-            margin-bottom:10px;
-            margin-left:90px;
-            line-height: 20px;
-            
-        }
-        #myself {
-            height:240px;
-            width:240px;
-            display: block;
-            margin: 0 auto;
-            
-        }
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Colton Surfus</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud"src="images/cloud.png" alt="cloud.png" />
+      <h1>Colton Surfus</h1>
+      <h2>a software engineer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud.png" />
+      <img src="images/mountain.png" alt="mountain.png" />
+    </div>
 
 
-        header {
-                margin-top: 50px;
-                height: 175px;
-                width: auto;
-        }
-
-        footer {
-                margin-top: 100px;
-                width: auto;
-                text-align: center;
-                font-size: 14px;
-                padding-bottom: 20px;
-        }
-        #git {
-            color: black;
-        }
-        #linked {
-            color: black;
-        }
-        #twitter {
-            color: black;
-        }
-
-        </style>
-    </head>
-
-    <header>
-        <h1 id = "header">Colton Surfus</h1>
-        <h2 id = "description">Software Engineer</h2>
-    </header>
-
-    <body>
-<div><img id ="myself" src="/images/myself.jpg" alt="Picture of me"></div>
-
-<div id="aboutMeDiv">        
-    <p id = "aboutMe" class = "pClass">My name is Colton Surfus and I'm a software engineering and computer science major. I enjoy creating things through the use of my skills. I enjoy completing projects that require me to learn new things. When I'm not working on projects, I enjoy watching movies, playing video games, watching sports,                      and physical fitness<p>
-</div>
-
-<div id = "resume">
-<h3 id="resume">Resume</h3>
-<p class ="pClass"><a href="Resume.pdf" download>Download Resume</a></p>
-</div>
-
-<div id = "skillsDiv">
-    <h3 id = "skills">Skills</h3>
-    <p id = "languages" class = "pClass">Languages - Java, C#, C++, Python, PHP, JavaScript, HTML, CSS, SQL</p>
-    <p id = "tools" class = "pClass">Tools - Visual Studio, Xamarin, GitHub, MATLAB</p>
-</div>
-
-<div id="projectsDiv">
-    <h3 id = "projects">Projects</h3>
-    
-        <p class="projectTitle">Workout Mobile App<p>
-        <p class ="pClass">Mobile application created using Visual Studio with Xamarin Forms. Incorporates a SQL database to store a user's information </p>
-        <p class ="pClass"><a href='https://github.com/coltonsurfus/proDevProject' target="_blank">View on GitHub</a></p>
-
-        <p class="projectTitle">Text Converter</p>
-        <p class ="pClass">Website that allows a user to encode a sentence into binary, octal, or hex. Comes in different versions (JavaScript, PHP, or jQuery AJAX</p>
-        <p class ="pClass"><a href='https://github.com/coltonsurfus/textConverter' target="_blank">View on GitHub</a></p>
-
-        <p class="projectTitle">Assembly Language Multiplication Table</p>
-        <p class ="pClass">A Multiplication table that goes up to 8 created using Assembly Language</p>
-        <p class ="pClass"><a href='https://github.com/coltonsurfus/textConverter' target="_blank">View on GitHub</a></p>
-
-        <p class="projectTitle">Coltonsurfus.com</p>
-        <p class ="pClass">Personal website that displays my skills, resume, and projects</p>
-        <p class ="pClass"><a href='https://github.com/coltonsurfus/coltonsurfus.github.io' target="_blank">View on GitHub</a></p>
-
-        <p class="projectTitle">Have I Watched That?</p>
-        <p class ="pClass">Website that allows a user to keep track of what movies they've watched. Users create an account to store movies watched to their profile. All data is stored
-            in a SQL database.</p>
-        <p class ="pClass"><a href='https://github.com/coltonsurfus/Have-I-Watched-That' target="_blank">View on GitHub</a></p>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="self-img" src="http://coltonsurfus.com/images/myself.jpg" alt="myself.jpg">
+        <h2>Hello.</h2>
+        <p class="intro">I'm a software engineer who likes to create things. I enjoy learning new things through projects. I love sports, movies, and physical fitness.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="code-img" src="images/code@3x.png" alt="code.png">
+          <h3>Languages</h3>
+          <p>Java, C#, C++, Python, Swift, JavaScript, PHP, CSS, HTML, and SQL</p>
+        </div>
+        <div class="skill-row">
+          <img class="tool-img" src="images/toolbox.png" alt="toolbox.png">
+          <h3>Tools</h3>
+          <p>Git, Visual Studio, Visual Studio Code, Xamarin, MATLAB, Microsoft Office, Xcode, and Atom</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Contact me</h2>
+        <h3>Feel free to send me an email</h3>
+        <p class="contact-message"></p>
+        <a class="btn" href="mailto:cole_surfus@icloud.com">CONTACT ME</a>
+      </div>
+    </div>
 
 
-    
+    <div class="bottom-container">
+      <a href="https://github.com/coltonsurfus" target="_blank"><i id="git" class="fab fa-github" style="font-size:28px;"></i></a>
+      <a href="https://www.linkedin.com/in/coltonsurfus/" target="_blank"><i id="linked" class="fab fa-linkedin" style="font-size:28px;"></i></a>
+      <a href="https://www.twitter.com/coltonsurfus/" target="_blank"><i id="twitter"class="fab fa-twitter" style="font-size:28px;"></i></a>
+      <p class="copyright">© 2019 Colton Surfus.</p>
+    </div>
 
-</div>
-    
-    </body>
-
-<footer id="footer">
-<p>Colton Surfus</p>
-<a href="https://github.com/coltonsurfus"><i id="git" class="fab fa-github" style="font-size:28px;"></i></a>
-<a href="https://www.linkedin.com/in/coltonsurfus/"><i id="linked" class="fab fa-linkedin" style="font-size:28px;"></i></a>
-<a href="https://www.twitter.com/coltonsurfus/"><i id="twitter"class="fab fa-twitter" style="font-size:28px;"></i></a>
-
-
-</footer>
-
-
+  </body>
 </html>
